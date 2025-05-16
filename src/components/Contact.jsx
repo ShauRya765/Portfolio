@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {motion} from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -19,6 +19,15 @@ const Contact = () => {
     });
 
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        abc();
+    }, [])
+    const abc = () => {
+        let a = [1, 55, 3, 2]
+        a.sort((b, c) => b - c)
+        console.log(a);
+    }
 
     const handleChange = (e) => {
         const {target} = e;

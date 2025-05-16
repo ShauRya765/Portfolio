@@ -28,7 +28,8 @@ import {
     k8s,
     aws,
     cryptoNexa,
-    phoenix
+    phoenix,
+    company
 } from "../assets";
 
 export const navLinks = [
@@ -142,7 +143,7 @@ const experiences = [
         title: "Full Stack Developer",
         company_name: "Itinker",
         icon: itinker,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "May 2022 - Dec 2022",
         points: [
             "Designed and implemented robust middleware solutions using Docker and Kubernetes improving deployment efficiency by 90%.",
@@ -151,15 +152,28 @@ const experiences = [
         ],
     },
     {
-        title: "DevOps Engineer",
-        company_name: "Mega Zebra",
-        icon: megazebra,
+        title: "Software Developer",
+        company_name: "Itinker",
+        icon: itinker,
         iconBg: "#383E56",
-        date: "Sept 2023 - Present",
+        date: "Jan 2023 - Aug 2024",
         points: [
-            "Containerized game application and automated release pipelines, reducing redundant work by 80% and improving deployment efficiency",
-            "Orchestrated the migration of 5 legacy applications to AWS EKS, resulting in a 50% increase in scalability and a 75% decrease in downtime.",
-            "Designed Datadog workflow automation with AWS Lambda functions to restart AWS EKS cluster pods when the log monitor gets triggered",
+            "Containerized a PHP backend and automated release pipelines with AWS, Docker, Kubernetes, and Terraform, cutting redundant deployment tasks by 80% for a high-traffic game (MahjongTrails).",
+            "Built efficient multi-stage Docker images for Node.js services, integrated into Groovy pipelines to streamline image creation, tagging, and AWS ECR uploads, reducing image build time by 40%.",
+            "Built a full-stack web app with React, TypeScript, and Node.js, boosting user engagement and online sales by 50%.",
+        ],
+    },
+    {
+        title: "Software Developer",
+        company_name: "Rencom Networks",
+        icon: company,
+        iconBg: "#383E56",
+        date: "May 2024 - Current",
+        points: [
+            "Developed a high-performance frontend for a real-time crypto platform using Next.js and TypeScript, enabling seamless tracking of thousands in token swaps and boosting user engagement. (banxchange.com)",
+            "Enhanced user experience for ~10k daily users (X) by reducing REST API latency by 47% (Y) through backend load balancing on Azure and frontend optimizations with React Query and server-side rendering.",
+            "Improved Node.js performance by 35% by eliminating blocking code and applying async patterns like Promise.all and worker threads.",
+            "Designed and deployed 3 Node.js microservices on Azure AKS, integrating real-time data sources via RESTful APIs to enable scalable, low-latency system performance."
         ],
     },
 ];

@@ -30,7 +30,7 @@ import starbucks from "./company/starbucks.png";
 import itinker from "./company/itinker_logo.png";
 import tesla from "./company/tesla.png";
 import megazebra from "./company/favicon.png";
-
+import company from "./company/company.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -73,5 +73,6 @@ export {
     k8s,
     aws,
     cryptoNexa,
-    phoenix
+    phoenix,
+    company
 };
